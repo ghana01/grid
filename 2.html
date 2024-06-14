@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            display: grid;
+            margin: auto;
+            max-width: 1200px;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        nav img{
+            width: 50px;
+        }
+        nav a{
+            color: #000;
+            padding: 50px;
+            grid-template-columns: repeat(3,1fr);
+        }
+        nav a:hover{
+            color: #00ee7f;
+            font-weight: bold;
+        }
+        nav button{
+            margin-left: 60%;
+            padding: 10px 0px;
+            border-radius: 5px;
+            background-color: #0fdb6b;
+            color: #000;
+        }
+        .hero-container{
+            max-width: 1200px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            padding: 10px;
+            gap: 20px;
+            align-items: center;
+        }
+        .text-section{
+            padding: 0px 50px;
+        }
+        .image-section{
+            background-color: yellow;
+            height: 100%;
+            max-height: 90vh;
+        }
+        .text-section h1{
+            font-size: 40px;
+        }
+        .text-section p{
+            color:#4c665d;
+        }
+        .text-section button{
+            padding: 10px 50px;
+            border: 0;
+            color:#fff;
+            margin-top: 30px;
+            background-color: black;
+        }
+        .image-section{
+            width: 70%;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <img
+        src="https://png.pngtree.com/png-clipart/20230401/original/pngtree-healthy-food-logo-design-with-chopstick-png-image_9016805.png"
+        alt="Logo"
+      />
+       <div>
+         <a href="#home">Home</a>
+         <a href="#About">About</a>
+         <a href="#contact">contact</a>
+        </div>
+        <button>Login</button>
+    </nav>
+    <div class="hero-container">
+        <section class="text-section">
+            <h1>HEALTHY FOOD</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore saepe optio est temporibus veniam totam quibusdam reprehenderit ea quo atque doloribus laboriosam sunt, itaque iste ut hic odio necessitatibus. Quod sapiente possimus atque perferendis maxime incidunt fugiat animi earum reiciendis!</p>
+            <button>Read more</button>
+        </section>
+        <section class="image-section">
+            <img
+            src="https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY="
+            alt="Healthy Food"
+          />
+
+        </section>
+    </div>
+</body>
+</html>
